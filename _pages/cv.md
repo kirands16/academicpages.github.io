@@ -1,13 +1,3 @@
----
-layout: archive
-title: "CV"
-permalink: /cv/
-author_profile: true
-redirect_from:
-  - /resume
----
-
-{% include base_path %}
 
 Education
 ======
@@ -41,9 +31,6 @@ Skills
 * HPC, Machine Learning, Artificial Intelligence
 * CDO, NCO, Python, Pytorch, Tensorflow
   * Grads Ferret
-  * Sub-skill 2.2
-  * Sub-skill 2.3
-* Skill 3
 
 Publications
 ======
@@ -170,12 +157,6 @@ of Garuda Grid “07 & 08 Aug'12 at NCAR-TIFR
  Participated in the “Workshop on Trends in High Performance Computing”, NIO,
 Goa, 15-16Dec 2011.
 
-  {% endfor %}</ul>
-  
-Teaching
-======
-  <ul>{% for post in site.teaching %}
-    {% include archive-single-cv.html %}
   {% endfor %}</ul>
   
 Service and leadership
